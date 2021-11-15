@@ -22,6 +22,9 @@ export const showDetail = (i)=>{
    <p> Email: ${email} </p>
    <img src="${image}" width="150" height="150" alt="${name}" title="${name}" >
    
+
+   <i class="fa fa-arrow-left" aria-hidden="true"></i>
+
    `;
 
    uiDetail.innerHTML = detail;

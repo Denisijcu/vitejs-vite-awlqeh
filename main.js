@@ -10,13 +10,16 @@ document.querySelector('#app').innerHTML = `
  ${title}
  </h1>
 
-${Detail}
+   ${Detail}
+
 
 ${Users}
 
 `;
 
 showUsers();
+
+
 
 window.showDetail = showDetail;
 window.onDelete = onDelete;
